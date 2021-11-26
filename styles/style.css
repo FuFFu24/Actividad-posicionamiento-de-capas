@@ -1,0 +1,26 @@
+div {
+    background-color: #61F4F4;
+    border: 2px solid #4C0082;
+    width: 100px;
+    position: absolute;
+}
+
+div+div{
+    position: absolute;
+    left: 150px;
+}
+
+div+div+div{
+    position: absolute;
+    left: 300px;
+}
+
+div+div+div+div{
+    position: absolute;
+    left: 450px;
+}
+
+div+div+div+div+div{
+    position: absolute;
+    left: 600px;
+}
